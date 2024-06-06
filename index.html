@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достопримечательности</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-content">
+            <a class="logo" href="index.html">
+              <a href="index.html" class="header_logo">
+                SoloveiCity
+              </a>
+              <img class="logo__img" src="header/logo.png" alt="">
+            </a>
+            <button class="location-btn">
+              <img class="location-btn__img" src="header/geolocation.svg" alt="">
+              <span class="location-btn__text">Курск</span>
+            </button>
+            <div class="search__wrapper">
+              <input class="search" type="text" placeholder="Поиск...">
+            </div>
+            <button class="calendar">
+              <img class="calendar__img" src="header/calendar.svg" alt="">
+              <span class="calendar__text">Календарь событий</span>
+            </button>
+            <button class="mobile-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu">
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="index.html">Достопримечательности</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="exhibitions.html">Выставки</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="entertainment.html">Развлечения</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="excursions.html">Экскурсии</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="catalog">
+        <div class="container">
+          <div class="catalog__inner">
+            <h1 class="catalog__title">Достопримечательности Курска</h1>
+            <button class="catalog-btn">
+              <img class="catalog-btn__img" src="main/catalog/geolocation-map.svg" alt="">
+              <span class="catalog-btn__text">показать на карте</span>
+            </button>
+            <iframe class="iframe hidden" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af854eb729b02bbcafb22b54572ce9af2047a21f644bf5846541c52f581a05a46&amp;source=constructor" frameborder="0"></iframe>
+          
+
+            <div class="catalog__box">
+
+              <div class="catalog__box-item monument">
+                <div class="slider slider--first">
+                  <div class="slider__item">
+                    <img src="main/catalog/1,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/1,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/1,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">Триумфальная арка</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Триумфальная арка</h4>
+                  <p class="catalog__box-content-text">
+                    Величественное сооружение венчает скульптурная композиция, изображающая святого Георгия, пронзающего копьем поверженного дракона.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item monument">
+                <div class="slider slider--first">
+                  <div class="slider__item">
+                    <img src="main/catalog/2,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/2,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/2,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text"> Знаменский собор</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Знаменский собор</h4>
+                  <p class="catalog__box-content-text">
+                    Сооружение в стиле торжественного классицизма действительно впечатляет. Его огромный купол возвышается на 48 м над землей, а вес главного колокола составляет 1380 кг.
+                    
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item monument">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/3,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/3,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/3,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">Свобода, Курская обл.</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Коренная Пустынь</h4>
+                  <p class="catalog__box-content-text">
+                    Монастырь Курской епархии Русской православной церкви, расположенный в местечке Свобода Золотухинского района. Основан в 1597 году на месте явления Курской Коренной иконы.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hill">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/4,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/4,2.jpg" alt="">
+                  </div>
+              
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">ул. Ленина, 13, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Памятник Курской антоновке</h4>
+                  <p class="catalog__box-content-text">
+                    Слава о курской антоновке идет с давних времен. Ее любили кушать еще при дворе Екатерины II, и придворные строго следили за тем, чтобы царице всегда подавались свежие наливные яблочки.
+                  </p>
+                </div>
+              </div>
+
+              <button class="loadmore loadmore--mobile">Загрузить ещё</button>
+
+              <div class="catalog__box-item fortress">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/5,1.jpg" alt="">
+                  </div>
+                
+                  <div class="slider__item">
+                    <img src="main/catalog/5,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">Центр м-н, Центральный округ, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Памятник поручику Ржевскому</h4>
+                  <p class="catalog__box-content-text">
+                    Посвящен вымышленному человеку, герою многочисленных анекдотов и персонажу пьесы «Давным-давно».
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item streets">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/6,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/6,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/6,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">Курск, пр. Победы</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Мемориальный комплекс «Курская дуга»</h4>
+                  <p class="catalog__box-content-text">
+                    Объекты комплекса служат цели увековечивания подвига советского народа в Курской битве времён Великой Отечественной войны.
+                  </p>
+                </div>
+              </div>
+
+              <button class="loadmore loadmore--normal">Загрузить ещё</button>
+
+              <div class="catalog__box-item hidden monument">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/7,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/7,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/7,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">Курск, пр. Победы</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Мемориальный комплекс «Курская битва»
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    Это произведение, выполненное в духе классической школы советского монументализма, символизирует силу советских войск, сломивших мощь фашистской военной машины.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hidden monument">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/8,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/8,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/8,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text"> ул. Ленина, 11, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Воскресенско-Ильинская церковь</h4>
+                  <p class="catalog__box-content-text">
+                    Воскресенско-Ильинский храм — православный храм в городе Курске. В начале XIX века некоторое время служил городским собором.
+                  </p>
+                </div>
+              </div>
+
+              <button class="loadmore loadmore--mobile">Загрузить ещё</button>
+
+              <div class="catalog__box-item hidden monument">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/9,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/9,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img class="img" src="main/catalog/9,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">ул. Марата, 31, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Римско-католическая церковь во имя Успения Пресвятой Девы Марии
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    Католический храм в городе Курск. Административно относится к Архиепархии Матери Божией с центром в Москве.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hidden churches">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/10,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/10,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/10,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">ул. Луначарского, 6, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Курский Краеведческий музей
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    Историко-краеведческий музей, расположенный в городе Курск; был создан 14 марта 1903 года по инициативе курского губернатора.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hidden churches">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/11,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/11,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/11,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">ул. Максима Горького, 27, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Сергиево-Казанский Кафедральный собор
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    Построен в 1752—1778 годах в стиле елизаветинского барокко на месте сгоревшей в 1751 году церкви во имя Сергия Радонежского. 
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hidden churches">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/12,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/12,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/12,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">ул. Димитрова, 75А, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Парк имени героев Гражданской войны
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    В дореволюционное время на месте нынешнего парка располагались соляные амбары, принадлежащие купцам Бородиным.
+                  </p>
+                </div>
+              </div>
+
+              <button class="loadmore loadmore--mobile">Загрузить ещё</button>
+
+              <div class="catalog__box-item hidden other">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/13,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/13,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/13,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">ул. Сонина, 4, Курск</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Курский Областной Планетарий
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    Планетарий возник благодаря инициативе директора областного краеведческого музея Н.П. Бушуева, который лично руководил возведением звездного купола.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hidden museum">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/14,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/14,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/14,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">Курская обл., Пристенский р-н, с. Красниково</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">
+                    Водяная мельница
+                  </h4>
+                  <p class="catalog__box-content-text">
+                    Мельница в с. Красниково – это единственная в Черноземье действующая водяная мельница, сохранившаяся в первозданном виде.Первое упоминание о ней встречается в 1780 г.
+                  </p>
+                </div>
+              </div>
+
+              <div class="catalog__box-item hidden hill">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="main/catalog/15,1.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/15,2.jpg" alt="">
+                  </div>
+                  <div class="slider__item">
+                    <img src="main/catalog/15,3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="catalog__box-location">
+                  <img src="main/catalog/geolocation.svg" alt="">
+                  <span class="catalog__box-location-text">г. Курск, Привокзальная пл., д. 1</span>
+                </div>
+                <div class="catalog__box-content">
+                  <h4 class="catalog__box-content-title">Здание железнодорожного вокзала</h4>
+                  <p class="catalog__box-content-text">
+                    В 1945 году конкурс на лучший проект выиграл архитектор Игорь Явейн. По его замыслу, главный вокзал города должен был стать символическими триумфальными воротами.
+                  </p>
+                </div>
+              </div>
+
+  
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="travelers">
+        <div class="container">
+          <h2 class="travelers__title">Мнения путешественников</h2>
+          <div class="travelers__slider">
+
+            <div class="travelers__slide">
+
+              <div class="travelers__item">
+                <div class="travelers__user">
+                  <img class="travelers__user-img" src="main/travelers/person-1.png" alt="">
+                  <div class="travelers__user-info">
+                    <span class="travelers__user-nickname">Vadim</span>
+                    <span class="travelers__user-city">Москва, Россия</span>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="16" viewBox="0 0 88 16" fill="none">
+                  <g clip-path="url(#clip0_23_18)">
+                  <path d="M9.33333 0C4.92533 0 1.33333 3.592 1.33333 8C1.33333 12.408 4.92533 16 9.33333 16C13.7413 16 17.3333 12.4133 17.3333 8C17.3333 3.592 13.7467 0 9.33333 0Z" fill="#00AA6C"/>
+                  <path d="M26.6667 0C22.2587 0 18.6667 3.592 18.6667 8C18.6667 12.408 22.2587 16 26.6667 16C31.0747 16 34.6667 12.4133 34.6667 8C34.6667 3.592 31.08 0 26.6667 0Z" fill="#00AA6C"/>
+                  <path d="M44 0C39.592 0 36 3.592 36 8C36 12.408 39.592 16 44 16C48.408 16 52 12.4133 52 8C52 3.592 48.4133 0 44 0Z" fill="#00AA6C"/>
+                  <path d="M61.3333 0C56.9253 0 53.3333 3.592 53.3333 8C53.3333 12.408 56.9253 16 61.3333 16C65.7413 16 69.3333 12.4133 69.3333 8C69.3333 3.592 65.7467 0 61.3333 0Z" fill="#00AA6C"/>
+                  <path d="M78.6667 0C74.2587 0 70.6667 3.592 70.6667 8C70.6667 12.408 74.2587 16 78.6667 16C83.0747 16 86.6667 12.4133 86.6667 8C86.6667 3.592 83.08 0 78.6667 0Z" fill="#00AA6C"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_23_18">
+                  <rect width="88" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+                <blockquote class="travelers__blockquote">
+                  <h3 class="travelers__blockquote-title">
+                    Спокойствие на душе!
+                  </h3>
+                  <p class="travelers__blockquote-text">
+                    Посетили всей семьей Коренную Пустынь, устали от дороги, но как только зашли туда, как камень с души. Прекрасный вид на поле и реку. Попали на службу в храм, а так же набрали воды из святого источника.Поездка определенно стоила того!
+                  </p> 
+                  <button class="travelers-readmore">Подробнее...</button>
+                  <span class="travelers__blockquote-about">Отзыв о: Коренная Пустынь</span>
+                </blockquote>
+                <span class="travelers__date">Опубликовано 5 мая 2024 г.</span>
+              </div>
+            </div>
+
+            <div class="travelers__slide">
+
+              <div class="travelers__item">
+                <div class="travelers__user">
+                  <img class="travelers__user-img" src="main/travelers/person-2.png" alt="">
+                  <div class="travelers__user-info">
+                    <span class="travelers__user-nickname">Никита</span>
+                    <span class="travelers__user-city">Курск, Россия</span>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="16" viewBox="0 0 88 16" fill="none">
+                  <g clip-path="url(#clip0_23_18)">
+                  <path d="M9.33333 0C4.92533 0 1.33333 3.592 1.33333 8C1.33333 12.408 4.92533 16 9.33333 16C13.7413 16 17.3333 12.4133 17.3333 8C17.3333 3.592 13.7467 0 9.33333 0Z" fill="#00AA6C"/>
+                  <path d="M26.6667 0C22.2587 0 18.6667 3.592 18.6667 8C18.6667 12.408 22.2587 16 26.6667 16C31.0747 16 34.6667 12.4133 34.6667 8C34.6667 3.592 31.08 0 26.6667 0Z" fill="#00AA6C"/>
+                  <path d="M44 0C39.592 0 36 3.592 36 8C36 12.408 39.592 16 44 16C48.408 16 52 12.4133 52 8C52 3.592 48.4133 0 44 0Z" fill="#00AA6C"/>
+                  <path d="M61.3333 0C56.9253 0 53.3333 3.592 53.3333 8C53.3333 12.408 56.9253 16 61.3333 16C65.7413 16 69.3333 12.4133 69.3333 8C69.3333 3.592 65.7467 0 61.3333 0Z" fill="#00AA6C"/>
+                  <path d="M78.6667 0C74.2587 0 70.6667 3.592 70.6667 8C70.6667 12.408 74.2587 16 78.6667 16C83.0747 16 86.6667 12.4133 86.6667 8C86.6667 3.592 83.08 0 78.6667 0Z" fill="#00AA6C"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_23_18">
+                  <rect width="88" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+                <blockquote class="travelers__blockquote">
+                  <h3 class="travelers__blockquote-title">Арка</h3>
+                  <p class="travelers__blockquote-text">
+                    Наша визитная карточка города Курска, очень красивое сооружение, особенно в ночное время,в огнях!!!! Рядом парк я «Патриот» где можно погулять и насладиться красотой Курска! Детям будет очень интересно, военная техника представлена в парке!!!!
+                  </p>
+                  <span class="travelers__blockquote-about">Отзыв о: Триумфальная арка</span>
+                </blockquote>
+                <span class="travelers__date">Опубликовано 15 марта 2024 г.</span>
+              </div>
+
+            </div>
+            
+            <div class="travelers__slide">
+
+              <div class="travelers__item">
+                <div class="travelers__user">
+                  <img class="travelers__user-img" src="main/travelers/person-3.png" alt="">
+                  <div class="travelers__user-info">
+                    <span class="travelers__user-nickname">Гноевой Антон</span>
+                    <span class="travelers__user-city">Железногорск, Россия</span>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="16" viewBox="0 0 88 16" fill="none">
+                  <g clip-path="url(#clip0_23_18)">
+                  <path d="M9.33333 0C4.92533 0 1.33333 3.592 1.33333 8C1.33333 12.408 4.92533 16 9.33333 16C13.7413 16 17.3333 12.4133 17.3333 8C17.3333 3.592 13.7467 0 9.33333 0Z" fill="#00AA6C"/>
+                  <path d="M26.6667 0C22.2587 0 18.6667 3.592 18.6667 8C18.6667 12.408 22.2587 16 26.6667 16C31.0747 16 34.6667 12.4133 34.6667 8C34.6667 3.592 31.08 0 26.6667 0Z" fill="#00AA6C"/>
+                  <path d="M44 0C39.592 0 36 3.592 36 8C36 12.408 39.592 16 44 16C48.408 16 52 12.4133 52 8C52 3.592 48.4133 0 44 0Z" fill="#00AA6C"/>
+                  <path d="M61.3333 0C56.9253 0 53.3333 3.592 53.3333 8C53.3333 12.408 56.9253 16 61.3333 16C65.7413 16 69.3333 12.4133 69.3333 8C69.3333 3.592 65.7467 0 61.3333 0Z" fill="#00AA6C"/>
+                  <path d="M78.6667 0C74.2587 0 70.6667 3.592 70.6667 8C70.6667 12.408 74.2587 16 78.6667 16C83.0747 16 86.6667 12.4133 86.6667 8C86.6667 3.592 83.08 0 78.6667 0Z" fill="#00AA6C"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_23_18">
+                  <rect width="88" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                <blockquote class="travelers__blockquote">
+                  <h3 class="travelers__blockquote-title">Помним...</h3>
+                  <p class="travelers__blockquote-text">
+                    Потрясающее место, место силы, и энергии, там другой воздух, пронизан памятью и скорбью, а еще верой в доброе и вечное в прекрасное будущее,! Гордость переполняет за страну и ее людей! И мурашки по коже и понимаешь что нельзя жить по другому иначе будет стыдно перед теми кто погиб защищая наше будущее!
+                  </p>
+                  <span class="travelers__blockquote-about">
+                    Отзыв о: Мемориальный Комплекс «Курская Дуга»
+                  </span>
+                </blockquote>
+                <span class="travelers__date">Опубликовано 7 марта 2024 г.</span>
+              </div>
+
+            </div>
+
+            <div class="travelers__slide">
+
+              <div class="travelers__item">
+                <div class="travelers__user">
+                  <img class="travelers__user-img" src="main/travelers/person-4.png" alt="">
+                  <div class="travelers__user-info">
+                    <span class="travelers__user-nickname">dd3525</span>
+                    <span class="travelers__user-city">Рыльск, Россия</span>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="16" viewBox="0 0 88 16" fill="none">
+                  <g clip-path="url(#clip0_23_18)">
+                  <path d="M9.33333 0C4.92533 0 1.33333 3.592 1.33333 8C1.33333 12.408 4.92533 16 9.33333 16C13.7413 16 17.3333 12.4133 17.3333 8C17.3333 3.592 13.7467 0 9.33333 0Z" fill="#00AA6C"/>
+                  <path d="M26.6667 0C22.2587 0 18.6667 3.592 18.6667 8C18.6667 12.408 22.2587 16 26.6667 16C31.0747 16 34.6667 12.4133 34.6667 8C34.6667 3.592 31.08 0 26.6667 0Z" fill="#00AA6C"/>
+                  <path d="M44 0C39.592 0 36 3.592 36 8C36 12.408 39.592 16 44 16C48.408 16 52 12.4133 52 8C52 3.592 48.4133 0 44 0Z" fill="#00AA6C"/>
+                  <path d="M61.3333 0C56.9253 0 53.3333 3.592 53.3333 8C53.3333 12.408 56.9253 16 61.3333 16C65.7413 16 69.3333 12.4133 69.3333 8C69.3333 3.592 65.7467 0 61.3333 0Z" fill="#00AA6C"/>
+                  <path d="M78.6667 0C74.2587 0 70.6667 3.592 70.6667 8C70.6667 12.408 74.2587 16 78.6667 16C83.0747 16 86.6667 12.4133 86.6667 8C86.6667 3.592 83.08 0 78.6667 0Z" fill="#00AA6C"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_23_18">
+                  <rect width="88" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+                <blockquote class="travelers__blockquote">
+                  <h3 class="travelers__blockquote-title">Что-то новое.</h3>
+                  <p class="travelers__blockquote-text">
+                    Красивый памятник в центре города, правда если ехать на авто, трудно заметить. Так как расположен между зданиями
+                  </p>
+                  <button class="travelers-readmore">Подробнее...</button>
+                  <span class="travelers__blockquote-about">
+                    Отзыв о: Памятник Курской Антоновке
+                  </span>
+                </blockquote>
+                <span class="travelers__date">Опубликовано 17 ноября 2023 г.</span>
+              </div>
+
+            </div>
+
+            <div class="travelers__slide">
+
+              <div class="travelers__item">
+                <div class="travelers__user">
+                  <img class="travelers__user-img" src="main/travelers/person-5.png" alt="">
+                  <div class="travelers__user-info">
+                    <span class="travelers__user-nickname">Артём</span>
+                    <span class="travelers__user-city">Орёл, Россия</span>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="16" viewBox="0 0 88 16" fill="none">
+                  <g clip-path="url(#clip0_23_18)">
+                  <path d="M9.33333 0C4.92533 0 1.33333 3.592 1.33333 8C1.33333 12.408 4.92533 16 9.33333 16C13.7413 16 17.3333 12.4133 17.3333 8C17.3333 3.592 13.7467 0 9.33333 0Z" fill="#00AA6C"/>
+                  <path d="M26.6667 0C22.2587 0 18.6667 3.592 18.6667 8C18.6667 12.408 22.2587 16 26.6667 16C31.0747 16 34.6667 12.4133 34.6667 8C34.6667 3.592 31.08 0 26.6667 0Z" fill="#00AA6C"/>
+                  <path d="M44 0C39.592 0 36 3.592 36 8C36 12.408 39.592 16 44 16C48.408 16 52 12.4133 52 8C52 3.592 48.4133 0 44 0Z" fill="#00AA6C"/>
+                  <path d="M61.3333 0C56.9253 0 53.3333 3.592 53.3333 8C53.3333 12.408 56.9253 16 61.3333 16C65.7413 16 69.3333 12.4133 69.3333 8C69.3333 3.592 65.7467 0 61.3333 0Z" fill="#00AA6C"/>
+                  <path d="M78.6667 0C74.2587 0 70.6667 3.592 70.6667 8C70.6667 12.408 74.2587 16 78.6667 16C83.0747 16 86.6667 12.4133 86.6667 8C86.6667 3.592 83.08 0 78.6667 0Z" fill="#00AA6C"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_23_18">
+                  <rect width="88" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+                <blockquote class="travelers__blockquote">
+                  <h3 class="travelers__blockquote-title">Храм</h3>
+                  <p class="travelers__blockquote-text">
+                    Величественный, красивый собор, в котором пребывает список чудотворной иконы Божьей Матери Курская Коренная. Намоленное и благодатное место. Бывая в городе всегда стремлюсь сюда прикоснуться к благодати. В душе всегда радость и умиротворение.
+                  </p>
+                  <button class="travelers-readmore">Подробнее...</button>
+                  <span class="travelers__blockquote-about">
+                    Отзыв о: Знаменский собор
+                  </span>
+                </blockquote>
+                <span class="travelers__date">Опубликовано 17 октября 2021 г.</span>
+              </div>
+
+            </div>
+
+            <div class="travelers__slide">
+
+              <div class="travelers__item">
+                <div class="travelers__user">
+                  <img class="travelers__user-img" src="main/travelers/person-6.png" alt="">
+                  <div class="travelers__user-info">
+                    <span class="travelers__user-nickname">Darina</span>
+                    <span class="travelers__user-city">Нижний Новгород, Россия</span>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="16" viewBox="0 0 88 16" fill="none">
+                  <g clip-path="url(#clip0_23_18)">
+                  <path d="M9.33333 0C4.92533 0 1.33333 3.592 1.33333 8C1.33333 12.408 4.92533 16 9.33333 16C13.7413 16 17.3333 12.4133 17.3333 8C17.3333 3.592 13.7467 0 9.33333 0Z" fill="#00AA6C"/>
+                  <path d="M26.6667 0C22.2587 0 18.6667 3.592 18.6667 8C18.6667 12.408 22.2587 16 26.6667 16C31.0747 16 34.6667 12.4133 34.6667 8C34.6667 3.592 31.08 0 26.6667 0Z" fill="#00AA6C"/>
+                  <path d="M44 0C39.592 0 36 3.592 36 8C36 12.408 39.592 16 44 16C48.408 16 52 12.4133 52 8C52 3.592 48.4133 0 44 0Z" fill="#00AA6C"/>
+                  <path d="M61.3333 0C56.9253 0 53.3333 3.592 53.3333 8C53.3333 12.408 56.9253 16 61.3333 16C65.7413 16 69.3333 12.4133 69.3333 8C69.3333 3.592 65.7467 0 61.3333 0Z" fill="#00AA6C"/>
+                  <path d="M78.6667 0C74.2587 0 70.6667 3.592 70.6667 8C70.6667 12.408 74.2587 16 78.6667 16C83.0747 16 86.6667 12.4133 86.6667 8C86.6667 3.592 83.08 0 78.6667 0Z" fill="#00AA6C"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_23_18">
+                  <rect width="88" height="16" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+                <blockquote class="travelers__blockquote">
+                  <h3 class="travelers__blockquote-title">История</h3>
+                  <p class="travelers__blockquote-text">
+                    ИНтересно! Советую.
+                  </p>
+                  <span class="travelers__blockquote-about">
+                    Отзыв о: Курский Краеведческий музей
+                  </span>
+                </blockquote>
+                <span class="travelers__date">
+                  Опубликовано 20 августа 2023 г.
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <div class="questions__inner">
+            <h2 class="questions__title">Часто задаваемые вопросы</h2>
+            <ul class="questions__list">
+              <li class="questions__item questions__item--first">
+                <p class="questions__item-text">
+                  Достопримечательности и культурные объекты: какие места в г. Курск являются лучшими?
+                </p>
+                <img class="questions__item-img" src="main/arrow-down.svg" alt="">
+              </li>
+              <li class="questions__item">
+                <p class="questions__item-text">
+                  Достопримечательности и культурные объекты: какие места в г. Курск являются лучшими для отдыха с семьей и детьми?
+                </p>
+                <img class="questions__item-img" src="main/arrow-down.svg" alt="">
+              </li>
+              <li class="questions__item">
+                <p class="questions__item-text">
+                  Достопримечательности и культурные объекты: какие места для пар в г.Курск являются лучшими?
+                </p>
+                <img class="questions__item-img" src="main/arrow-down.svg" alt="">
+              </li>
+              <li class="questions__item">
+                <p class="questions__item-text">
+                  Достопримечательности и культурные объекты: какие места в г. Курск являются лучшими для школьников?
+                </p>
+                <img class="questions__item-img" src="main/arrow-down.svg" alt="">
+              </li>
+              <li class="questions__item">
+                <p class="questions__item-text">
+                  Достопримечательности и культурные объекты: какие места в г. Курск являются лучшими для путешественников с ограниченным бюджетом?
+                </p>
+                <img class="questions__item-img" src="main/arrow-down.svg" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__box">
+            <a class="logo" href="index.html">
+              <img class="logo__img" src="footer/logo.png" alt="">
+            </a>
+            <div class="copyright">© 2024 SoloveiCity. Все права защищены.</div>
+          </div>
+          <span class="footer__text">Следите за новостями</span>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="footer/social-1.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="footer/social-2.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="footer/social-3.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

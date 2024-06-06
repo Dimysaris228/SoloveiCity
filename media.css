@@ -1,0 +1,281 @@
+@media (max-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    max-width: 320px;
+    padding: 0 10px;
+  }
+
+  .header__top-content {
+    padding: 15px 0;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .logo__img {
+    width: 127px;
+    height: 25px;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px 0;
+  }
+
+  .mobile-menu span {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .location-btn {
+    display: none;
+  }
+
+  .search__wrapper {
+    display: none;
+  }
+
+  .calendar {
+    display: none;
+  }
+
+  .menu {
+    padding: 15px 0;
+  }
+
+  .menu__list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 5px;
+  }
+
+  .menu__item + .menu__item {
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .menu__item:nth-child(1),
+  .menu__item:nth-child(3) {
+    border-right: 1px solid #222;
+    padding-right: 5px;
+  }
+
+  .menu__link {
+    font-size: 12px;
+  }
+
+  .catalog {
+    padding: 15px 0;
+  }
+
+  .catalog__inner {
+    background-color: #F1F1F1;
+    padding: 15px;
+    gap: 10px 0;
+  }
+
+  .catalog__title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .catalog-btn {
+    gap: 0 5px;
+  }
+
+  .catalog-btn__img {
+    width: 17px;
+    height: 21px;
+  }
+
+  .iframe {
+    width: 300px;
+    height: 170px;
+  }
+
+  .catalog__filters-list {
+    flex-wrap: wrap;
+    gap: 5px 10px;
+    margin-bottom: 20px;
+  }
+  .catalog__filters-title,
+  .catalog__filters-btn {
+    font-size: 14px;
+  }
+
+  .catalog__box {
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0px;
+  }
+
+  .catalog__box-item {
+    width: 250px;
+    height: 292px;
+  }
+
+  .slider__item img {
+    width: 250px;
+    height: 167px;
+  }
+
+  .catalog__box-item:hover {
+    scale: initial;
+  }
+
+  .catalog__box-location {
+    bottom: 130px;
+    left: 5px;
+  }
+
+  .catalog__box-content {
+  border: 1px solid #E6E8EA;
+  padding: 5px;
+  height: 125px;
+  }
+
+  .catalog__box-content-title {
+    font-size: 14px;
+  }
+
+  .loadmore {
+    font-size: 14px;
+    grid-column: span 1;
+    padding: 10px 0;
+    width: 250px;
+    height: 38px;
+  }
+
+  .loadmore:hover {
+    scale: initial;
+  }
+
+  .travelers {
+    padding: 20px 0;
+  }
+
+  .travelers__title {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .travelers__slider {
+    gap: 0 5px;
+    max-width: 290px;
+  }
+
+  .arrow-right {
+    width: 20px;
+    height: 20px;
+  }
+
+  .arrow-right img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .travelers__user {
+    gap: 0 5px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .travelers__user-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .travelers__user-info {
+    gap: 5px 0;
+  }
+
+  .travelers__user-nickname {
+    font-size: 14px;
+  }
+
+  .travelers__blockquote-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .travelers__blockquote-text {
+    margin-bottom: 5px;
+  }
+
+  .travelers-readmore {
+    margin-bottom: 10px;
+  }
+
+  .travelers__blockquote-about {
+    margin-bottom: 5px;
+  }
+
+  .questions {
+    padding: 20px 0;
+  }
+
+  .questions__title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .questions__item {
+    gap: 0 6px;
+    height: 80px;
+  }
+
+  .questions__item::after {
+    width: 284px;
+  }
+
+  .questions__item--first::before {
+    width: 284px;
+  }
+
+  .questions__item-text {
+    width: 264px;
+  }
+
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer__inner {
+    flex-direction: column-reverse;
+    justify-content: initial;
+  }
+
+  .footer__social-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__social-list {
+    margin-bottom: 15px;
+  }
+
+  .footer__text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .logo__img {
+    width: 127px;
+    height: 25px;
+  }
+
+  .footer__box {
+    gap: 10px 0;
+  }
+}

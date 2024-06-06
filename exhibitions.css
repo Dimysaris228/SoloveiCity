@@ -1,0 +1,284 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #140D60;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header__top {
+  background-color: #655BC9;
+}
+
+.header__top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 50px;
+  padding: 25px 0;
+}
+
+.location-btn {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.location-btn__text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.search__wrapper {
+  position: relative;
+}
+
+.search {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 9px 10px;
+  width: 415px;
+  height: 33px;
+}
+
+.search,
+.search::placeholder {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search::placeholder {
+  color: #ffffff;
+}
+
+.search__wrapper::after {
+  content: '';
+  background-image: url(header/search.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  right: 10px;
+  top: 5px;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.calendar__text {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  padding: 30px 0;
+}
+
+.menu__list {
+  display: flex;
+  gap: 0 20px;
+}
+
+.menu__item + .menu__item {
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+
+.menu__link {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.exhibitions {
+  padding: 30px 0;
+}
+
+.exhibitions__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exhibitions__title {
+  
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+  color:#140D60;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.exhibitions__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.exhibitions__item {
+  background-color: #2b22b00a;
+  position: relative;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.exhibitions__item:hover {
+  scale: 1.05;
+}
+
+.exhibitions__item:nth-child(1),
+.exhibitions__item:nth-child(6),
+.exhibitions__item:nth-child(9) {
+  grid-column: span 2;
+}
+
+.exhibitions__img {
+  display: block;
+  width: 100%;
+  height: 260px;
+}
+
+.exhibitions__location {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+  bottom: 120px;
+  left: 10px;
+}
+
+.exhibitions__location-text { 
+  
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.exhibitions__content {
+ 
+  padding: 20px 0 40px 10px;
+  height: 110px;
+}
+
+.exhibitions__content-date {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-wergb(37, 35, 108)weight>;
+  font-style: 30PX;
+  display: block;
+  color: #43418e;
+  margin-bottom: 10px;
+}
+
+.exhibitions__content-title {
+  color: rgba(100, 91, 201, 0.462);
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.footer {
+  background-color: #655BC9;
+  padding: 30px 0;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 0 20px;
+}
+.header_logo{
+  font-size: 33px;
+  font-family: 700;
+  color: black;
+}
